@@ -61,3 +61,77 @@ Android SDK 34 (Android 14)
 Minimum API Level 24 (Android 7.0)
 
 Installation
+Clone the repository
+
+bash
+git clone https://github.com/yazanprogrammer1/LuraEditor.git
+Open in Android Studio
+
+File → Open → Select project folder
+
+Build and Run
+
+Click the Run button (▶️)
+
+Select your emulator or device
+
+🛠️ Tech Stack
+Core Technologies
+Language: Kotlin 1.9.0
+
+UI Framework: Jetpack Compose 1.5.0
+
+Architecture: Clean Architecture + MVVM
+
+Dependency Injection: Dagger Hilt
+
+Async Operations: Kotlin Coroutines & Flow
+
+Image Processing: Custom Canvas Operations
+
+📱 Screenshots
+<div align="center">
+Main Screen	Filters	Adjustments
+https://screenshots/main.png	https://screenshots/filters.png	https://screenshots/adjustments.png
+Comparison	Save Dialog
+https://screenshots/compare.png	https://screenshots/save.png
+</div>
+🎨 UI/UX Features
+Design System
+Material Design 3 - Modern design language
+
+Dark/Light Theme - Automatic theme switching
+
+Custom Colors - Professional color palette
+
+Smooth Animations - Lottie animations and transitions
+
+User Experience
+Intuitive Navigation - Easy-to-use interface
+
+Gesture Support - Pinch, zoom, pan, and swipe
+
+Real-time Feedback - Instant visual feedback
+
+Accessibility - Support for screen readers
+
+🔧 Performance Optimizations
+Image Processing
+Bitmap Pooling - Reuse bitmap memory
+
+Downscaling - Process reduced resolution previews
+
+Background Processing - Non-blocking UI thread
+
+Memory Management - Efficient bitmap handling
+
+UI Performance
+Lazy Loading - Optimize list performance
+
+Composition Optimization - Skip recomposition
+
+Texture Caching - Cache processed images
+
+Debounced Updates - Reduce unnecessary processing
+أكتب لي READM 
+فخم مثل الي قبل ومبهررررر
