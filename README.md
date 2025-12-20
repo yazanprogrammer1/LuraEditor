@@ -1,137 +1,151 @@
-📸 Lura Editor - Professional Image Editing App
-<div align="center">
-https://img.shields.io/badge/Platform-Android-brightgreen
-https://img.shields.io/badge/Kotlin-1.9.0-purple
-https://img.shields.io/badge/Jetpack%2520Compose-1.5.0-blue
-https://img.shields.io/badge/License-MIT-yellow
-https://img.shields.io/badge/Version-1.0.0-orange
+# 📸 Lura Editor – Professional Image Editing App
 
-A modern, elegant image editing application for Android
+<div align="center">
+
+![Platform](https://img.shields.io/badge/Platform-Android-brightgreen)
+![Kotlin](https://img.shields.io/badge/Kotlin-1.9.0-purple)
+![Compose](https://img.shields.io/badge/Jetpack%20Compose-1.5.0-blue)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+![Version](https://img.shields.io/badge/Version-1.0.0-orange)
+
+**A modern, elegant, and high‑performance image editing application for Android**
 
 </div>
-✨ Features
-🎨 Image Filters
-15+ Professional Filters - Vintage, Noir, Warm, Cool, and more
 
-Real-time Preview - See changes instantly
+---
 
-Adjustable Intensity - Fine-tune filter strength
+## ✨ Features
 
-High Performance - Optimized processing
+### 🎨 Image Filters
 
-⚡ Quick Adjustments
-Brightness - Lighten or darken images
+* **15+ Professional Filters** – Vintage, Noir, Warm, Cool, and more
+* **Real‑time Preview** – See changes instantly
+* **Adjustable Intensity** – Full control over filter strength
+* **High Performance** – Optimized image processing pipeline
 
-Contrast - Enhance image clarity
+### ⚡ Quick Adjustments
 
-Saturation - Adjust color intensity
+* **Brightness** – Control light and exposure
+* **Contrast** – Enhance clarity
+* **Saturation** – Adjust color depth
+* **Warmth** – Control color temperature
+* **Sharpness** – Improve fine details
 
-Warmth - Control color temperature
+### 🎛️ Advanced Controls
 
-Sharpness - Improve image details
+* **Professional UI** – Built with Material Design 3
+* **Zoom & Pan** – Smooth gesture controls
+* **Comparison Mode** – Hold to preview original image
+* **Undo / Redo** – Full edit history
+* **Reset All** – One‑tap revert
 
-🎛️ Advanced Controls
-Professional UI - Modern Material Design 3
+### 💾 Export Options
 
-Zoom & Pan - Pinch to zoom with gestures
+* **Formats** – JPEG, PNG, WebP
+* **Quality Control** – 50% → 100%
+* **High Resolution Export** – Preserve details
+* **Quick Save** – Instant gallery export
 
-Comparison Mode - Hold to see original vs edited
+---
 
-Undo/Redo - Full history support
+## 🚀 Quick Start
 
-Reset All - Quick revert to original
+### Prerequisites
 
-💾 Export Options
-Multiple Formats - JPEG, PNG, WebP
+* Android Studio **Giraffe (2022.3.1)** or newer
+* **JDK 17+**
+* Android SDK **34** (Android 14)
+* Minimum API **24** (Android 7.0)
 
-Quality Control - 50% to 100% quality
+### Installation
 
-High Resolution - Preserve image quality
+```bash
+git clone https://github.com/yazanprogrammer1/LuraEditor
+```
 
-Quick Save - Fast export to gallery
+1. Open Android Studio
+2. **File → Open** → Select project folder
+3. Sync Gradle
+4. Click **Run ▶️** and choose your device
 
-🚀 Quick Start
-Prerequisites
-Android Studio Giraffe (2022.3.1) or higher
+---
 
-JDK 17 or higher
+## 🛠️ Tech Stack
 
-Android SDK 34 (Android 14)
+### Core Technologies
 
-Minimum API Level 24 (Android 7.0)
+* **Language:** Kotlin 1.9.0
+* **UI:** Jetpack Compose 1.5.0
+* **Architecture:** Clean Architecture + MVVM
+* **Dependency Injection:** Dagger Hilt
+* **Async:** Kotlin Coroutines & Flow
+* **Image Processing:** Custom Canvas Operations
 
-Installation
-Clone the repository
+---
 
-bash
-git clone https://github.com/yazanprogrammer1/LuraEditor.git
-Open in Android Studio
+## 📱 Screenshots
 
-File → Open → Select project folder
+<table align="center">
+  <tr>
+    <td><img src="screenshots/main.png" width="250"/></td>
+    <td><img src="screenshots/filters.png" width="250"/></td>
+    <td><img src="screenshots/adjustments.png" width="250"/></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/compare.png" width="250"/></td>
+    <td><img src="screenshots/save.png" width="250"/></td>
+  </tr>
+</table>
 
-Build and Run
+---
 
-Click the Run button (▶️)
+## 🎨 UI / UX Highlights
 
-Select your emulator or device
+### Design System
 
-🛠️ Tech Stack
-Core Technologies
-Language: Kotlin 1.9.0
+* **Material Design 3**
+* **Dark & Light Themes**
+* **Professional Color Palette**
+* **Smooth Animations & Transitions**
 
-UI Framework: Jetpack Compose 1.5.0
+### User Experience
 
-Architecture: Clean Architecture + MVVM
+* Intuitive navigation
+* Gesture‑based editing
+* Real‑time visual feedback
+* Accessibility friendly
 
-Dependency Injection: Dagger Hilt
+---
 
-Async Operations: Kotlin Coroutines & Flow
+## 🔧 Performance Optimizations
 
-Image Processing: Custom Canvas Operations
+### Image Processing
 
-📱 Screenshots
-<div align="center">
-Main Screen	Filters	Adjustments
-https://screenshots/main.png	https://screenshots/filters.png	https://screenshots/adjustments.png
-Comparison	Save Dialog
-https://screenshots/compare.png	https://screenshots/save.png
-</div>
-🎨 UI/UX Features
-Design System
-Material Design 3 - Modern design language
+* Bitmap pooling
+* Preview downscaling
+* Background processing
+* Efficient memory management
 
-Dark/Light Theme - Automatic theme switching
+### UI Performance
 
-Custom Colors - Professional color palette
+* Lazy loading
+* Recomposition optimization
+* Texture caching
+* Debounced state updates
 
-Smooth Animations - Lottie animations and transitions
+---
 
-User Experience
-Intuitive Navigation - Easy-to-use interface
+## 📝 License
 
-Gesture Support - Pinch, zoom, pan, and swipe
+```
+MIT License
+Copyright (c) 2024 Lura Editor
+```
 
-Real-time Feedback - Instant visual feedback
+---
 
-Accessibility - Support for screen readers
+## 🌟 Final Words
 
-🔧 Performance Optimizations
-Image Processing
-Bitmap Pooling - Reuse bitmap memory
+**Lura Editor** is built to showcase modern Android development, clean architecture, and high‑performance image processing — all wrapped in a beautiful UI.
 
-Downscaling - Process reduced resolution previews
-
-Background Processing - Non-blocking UI thread
-
-Memory Management - Efficient bitmap handling
-
-UI Performance
-Lazy Loading - Optimize list performance
-
-Composition Optimization - Skip recomposition
-
-Texture Caching - Cache processed images
-
-Debounced Updates - Reduce unnecessary processing
-أكتب لي READM 
-فخم مثل الي قبل ومبهررررر
+> Crafted with passion, precision, and Kotlin 💙
