@@ -77,8 +77,6 @@ git clone https://github.com/yazanprogrammer1/LuraEditor
 * **Language:** Kotlin 1.9.0
 * **UI:** Jetpack Compose 1.5.0
 * **Architecture:** Clean Architecture + MVVM
-* **Dependency Injection:** Dagger Hilt
-* **Async:** Kotlin Coroutines & Flow
 * **Image Processing:** Custom Canvas Operations
 
 ---
@@ -92,7 +90,6 @@ git clone https://github.com/yazanprogrammer1/LuraEditor
     <td><img src="screenshots/adjustments.png" width="250"/></td>
   </tr>
   <tr>
-    <td><img src="screenshots/compare.png" width="250"/></td>
     <td><img src="screenshots/save.png" width="250"/></td>
   </tr>
 </table>
